@@ -7,14 +7,29 @@
 function init() {
 	initBackdrop();
 	initNavDrawer();
+	initSnackbar();
+}
+
+function initSnackbar() {
+	
+	var a = document.createElement("div");
+	
+	a.className = "snackbar";
+	a.id = "CoreX_UI_snackBar";
+	a.style.bottom = "-48px";
+	a.style.left = "0";
+	a.appendChild(document.createElement("p"));
+	
+	document.body.appendChild(a);
+	
 }
 
 /* Backdrop */
 function initBackdrop() {
 
-	var a = document.createElement('div');
+	var a = document.createElement("div");
 
-	a.className = 'backdrop';
+	a.className = "backdrop";
 	a.style.backgroundColor = "rgba(0, 0, 0, 0);";
 	a.style.visibility = "hidden";
 	a.id = "CoreX_UI_backDrop";
@@ -39,10 +54,10 @@ function hideBackdrop() {
 /* NavDrawer */
 function initNavDrawer() {
 
-	var a = document.getElementsByClassName('navdrawer')[0];
+	var a = document.getElementsByClassName("navdrawer")[0];
 
 	if (a !== undefined) {
-		a.style.left = '-300px';
+		a.style.left = "-300px";
 	}
 
 }
@@ -51,10 +66,10 @@ function showNavDrawer() {
 	
 	showBackdrop();
 
-	var a = document.getElementsByClassName('navdrawer')[0];
+	var a = document.getElementsByClassName("navdrawer")[0];
 
 	if (a !== undefined) {
-		a.style.left = '0px';
+		a.style.left = "0px";
 		a.style.visibility = "visible";
 	}
 
@@ -64,12 +79,26 @@ function hideNavDrawer() {
 	
 	hideBackdrop();
 
-	var a = document.getElementsByClassName('navdrawer')[0];
+	var a = document.getElementsByClassName("navdrawer")[0];
 
 	if (a !== undefined) {
-		a.style.left = '-300px';
+		a.style.left = "-300px";
 	}
 
+}
+
+function showSnackbar(m) {
+	
+	var a = document.getElementById("CoreX_UI_snackBar");
+	
+	a.firstChild.innerHTML = m;
+	a.style.bottom = "0";
+	a.style.left = "calc(50% -" + parseInt(parseInt(getComputedStyle(a).width) / 2) + "px";
+	
+	setTimeout(function(s) {
+		s.style.bottom = "-1000px";
+	}, 3500, a);
+	
 }
 
 window.onload = init;

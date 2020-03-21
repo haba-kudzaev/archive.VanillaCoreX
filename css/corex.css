@@ -8,6 +8,7 @@
 @import url(module/box.css);
 @import url(module/grid.css);
 @import url(module/navdrawer.css);
+@import url(module/snackbar.css);
 @import url(module/toolbar.css);
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -89,24 +90,3 @@ img {
   vertical-align: middle;
 }
 
-/* Toolbar */
-
-}
-
-/* Main menu */
-
-
-.avatar{
-    width: 64px;
-    height: 64px;
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    background-color: white;
-    z-index: 1;
-    border-radius: 100px;
-}
-.avatar > img{
-    width: 100%;
-    height: 100%;
-}

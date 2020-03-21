@@ -41,32 +41,32 @@ function initNavDrawer() {
 
 	var a = document.getElementsByClassName('navdrawer')[0];
 
-	if (a !== undefined)
-	{
+	if (a !== undefined) {
 		a.style.left = '-300px';
 	}
 
 }
 
 function showNavDrawer() {
+	
 	showBackdrop();
 
 	var a = document.getElementsByClassName('navdrawer')[0];
 
-	if (a !== undefined)
-	{
+	if (a !== undefined) {
 		a.style.left = '0px';
+		a.style.visibility = "visible";
 	}
 
 }
 
 function hideNavDrawer() {
+	
 	hideBackdrop();
 
 	var a = document.getElementsByClassName('navdrawer')[0];
 
-	if (a !== undefined)
-	{
+	if (a !== undefined) {
 		a.style.left = '-300px';
 	}
 

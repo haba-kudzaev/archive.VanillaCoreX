@@ -4,9 +4,10 @@
  * @license     MIT License
  */
  
+@import url(module/alert.css);
 @import url(module/backdrop.css);
-@import url(module/box.css);
 @import url(module/grid.css);
+@import url(module/layout.css);
 @import url(module/navdrawer.css);
 @import url(module/toolbar.css);
 
@@ -52,7 +53,7 @@
 
 html, body {
   background: White;
-  color: #202125;
+  color: #232F34;
   padding: auto;
   margin: auto;
   font-family: "Open Sans", sans-serif;
@@ -96,3 +97,10 @@ img {
   vertical-align: middle;
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.50;
+       opacity: 0.50;
+}

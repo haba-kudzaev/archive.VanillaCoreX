@@ -21,6 +21,7 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 1em;
 }
 
 @media (min-width: 576px) {

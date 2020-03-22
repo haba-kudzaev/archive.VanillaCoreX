@@ -19,6 +19,10 @@
 		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
 }
 
+.toolbar ~ .container {
+  margin-top: 5em;
+}
+
 .toolbar > h3 {
   float: left;
   position: relative;

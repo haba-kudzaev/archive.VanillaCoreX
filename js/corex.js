@@ -102,4 +102,3 @@ function showSnackbar(m) {
 }
 
 window.onload = init;
-

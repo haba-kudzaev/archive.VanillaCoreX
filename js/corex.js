@@ -7,21 +7,6 @@
 function init() {
 	initBackdrop();
 	initNavDrawer();
-	initSnackbar();
-}
-
-function initSnackbar() {
-	
-	var a = document.createElement("div");
-	
-	a.className = "snackbar";
-	a.id = "CoreX_UI_snackBar";
-	a.style.bottom = "-48px";
-	a.style.left = "0";
-	a.appendChild(document.createElement("p"));
-	
-	document.body.appendChild(a);
-	
 }
 
 /* Backdrop */
@@ -85,20 +70,6 @@ function hideNavDrawer() {
 		a.style.left = "-300px";
 	}
 
-}
-
-function showSnackbar(m) {
-	
-	var a = document.getElementById("CoreX_UI_snackBar");
-	
-	a.firstChild.innerHTML = m;
-	a.style.bottom = "0";
-	a.style.left = "calc(50% -" + parseInt(parseInt(getComputedStyle(a).width) / 2) + "px";
-	
-	setTimeout(function(s) {
-		s.style.bottom = "-1000px";
-	}, 3500, a);
-	
 }
 
 window.onload = init;

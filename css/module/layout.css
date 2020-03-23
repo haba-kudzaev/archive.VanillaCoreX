@@ -24,3 +24,8 @@
           box-shadow: var(--box-shadow);
 		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
 }
+
+.layout-card button:last-child {
+  margin-bottom: 1em;
+}
+

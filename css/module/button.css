@@ -25,7 +25,14 @@ button {
 		  --border-radius: 0.4em;
 }
 
-button.button-outline {
+.button_pill {
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 5em;;
+}
+
+.button-outline {
   background-color: inherit;
   border: 2px solid #eee;
   color: inherit;
@@ -56,7 +63,7 @@ button:not(.button-outline):active {
 		  --box-shadow: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
 }
 
-button.button-outline:active {
+.button-outline:active {
   color: White;
   background-color: #4385F5;
   border-color: #4385F5;

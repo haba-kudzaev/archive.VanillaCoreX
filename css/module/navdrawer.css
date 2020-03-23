@@ -81,6 +81,6 @@
 }
 
 .navdrawer .item.selected > i,
-.navdrawer .item.selected > i {
+.navdrawer .item.selected > p {
   color: #4385F5;
 }

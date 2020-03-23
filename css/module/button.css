@@ -1,0 +1,46 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+button {
+  background-color: #4385F5;
+  padding: 0.5em 0.8em;
+  border: none;
+  color: White;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: button;
+  -webkit-box-shadow: var(--box-shadow);
+     -moz-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 0.4em;
+}
+
+button::-moz-focus-inner {
+   border: none;
+}
+
+button:hover,
+button:active {
+  -webkit-transition-duration: .8s;
+     -moz-transition-duration: .8s;
+       -o-transition-duration: .8s;
+          transition-duration: .8s;
+}
+
+button:active {
+  background-color: #77A7FB;
+  transform: translateY(-1px);
+  -webkit-box-shadow: var(--box-shadow);
+     -moz-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+		  --box-shadow: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
+}

@@ -39,6 +39,7 @@
 
 /* NavDrawer Menu item */
 .navdrawer .item {
+  color: inherit;
   display: inline-block;
   overflow: hidden;
   position: relative;
@@ -75,9 +76,9 @@
   z-index: 1;
 }
 
-.navdrawer .item:hover,
+.navdrawer .item:active,
 .navdrawer .item.selected {
-  background-color: #DDDDDD;
+  background-color: #F2F2F2;
 }
 
 .navdrawer .item.selected > i,

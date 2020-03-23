@@ -89,6 +89,7 @@ fieldset {
 
 a,
 a:visited {
+  color: #4385F5;
   text-decoration: underline; 
 }
 

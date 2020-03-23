@@ -11,6 +11,7 @@ button {
   color: White;
   cursor: pointer;
   outline: none;
+  overflow: hidden;
   text-align: center;
   text-transform: uppercase;
   -webkit-appearance: button;
@@ -22,6 +23,16 @@ button {
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
 		  --border-radius: 0.4em;
+}
+
+button.button-outline {
+  background-color: inherit;
+  border: 2px solid #eee;
+  color: inherit;
+  -webkit-box-shadow: var(--box-shadow);
+     -moz-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+		  --box-shadow: none;
 }
 
 button::-moz-focus-inner {
@@ -36,11 +47,17 @@ button:active {
           transition-duration: .8s;
 }
 
-button:active {
+button:not(.button-outline):active {
   background-color: #77A7FB;
   transform: translateY(-1px);
   -webkit-box-shadow: var(--box-shadow);
      -moz-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
 		  --box-shadow: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
+}
+
+button.button-outline:active {
+  color: White;
+  background-color: #4385F5;
+  border-color: #4385F5;
 }

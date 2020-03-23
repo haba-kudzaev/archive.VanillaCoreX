@@ -3,13 +3,22 @@
  * @copyright   Copyright (c) o1310, 2020
  * @license     MIT License
  */
-
+ 
+var CoreX = {
+	ID_BACKDROP : "CoreX_UI_backdrop"
+};
+ 
+/* =============
+   CoreX JS init */
 function init() {
+
 	initBackdrop();
 	initNavDrawer();
+	
 }
 
-/* Backdrop */
+/* ==============
+   CoreX Backdrop */
 function initBackdrop() {
 
 	var a = document.createElement("div");
@@ -17,7 +26,7 @@ function initBackdrop() {
 	a.className = "backdrop";
 	a.style.backgroundColor = "rgba(0, 0, 0, 0);";
 	a.style.visibility = "hidden";
-	a.id = "CoreX_UI_backDrop";
+	a.id = CoreX.ID_BACKDROP;
 	a.onclick = function() {
 		hideNavDrawer();
 	};
@@ -27,16 +36,17 @@ function initBackdrop() {
 }
 
 function showBackdrop() {
-	document.getElementById("CoreX_UI_backDrop").style.visibility = "visible";
-	document.getElementById("CoreX_UI_backDrop").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+	document.getElementById(CoreX.ID_BACKDROP).style.visibility = "visible";
+	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 }
 
 function hideBackdrop() {
-	document.getElementById("CoreX_UI_backDrop").style.visibility = "hidden";
-	document.getElementById("CoreX_UI_backDrop").style.backgroundColor = "rgba(0, 0, 0, 0)";
+	document.getElementById(CoreX.ID_BACKDROP).style.visibility = "hidden";
+	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = "rgba(0, 0, 0, 0)";
 }
 
-/* NavDrawer */
+/* ===============
+   CoreX NavDrawer */
 function initNavDrawer() {
 
 	var a = document.getElementsByClassName("navdrawer")[0];

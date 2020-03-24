@@ -5,7 +5,7 @@
  */
  
 button {
-  background-color: #4385F5;
+  background-color: var(--colorPrimary);
   padding: 0.5em 0.8em;
   border: none;
   color: White;
@@ -34,7 +34,7 @@ button {
 
 .button-outline {
   background-color: inherit;
-  border: 2px solid #eee;
+  border: 2px solid var(--colorOutline);
   color: inherit;
   -webkit-box-shadow: var(--box-shadow);
      -moz-box-shadow: var(--box-shadow);
@@ -55,7 +55,7 @@ button:active {
 }
 
 button:not(.button-outline):active {
-  background-color: #77A7FB;
+  background-color: var(--colorSecondary);
   transform: translateY(-1px);
   -webkit-box-shadow: var(--box-shadow);
      -moz-box-shadow: var(--box-shadow);
@@ -65,6 +65,6 @@ button:not(.button-outline):active {
 
 .button-outline:active {
   color: White;
-  background-color: #4385F5;
-  border-color: #4385F5;
+  background-color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
 }

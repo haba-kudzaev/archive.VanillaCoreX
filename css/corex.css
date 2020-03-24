@@ -55,8 +55,8 @@
 @viewport { width: device-width; }
 
 html, body {
-  background: White;
-  color: #232F34;
+  background: var(--colorBackground);
+  color: var(--colorFont);
   padding: auto;
   margin: auto;
   font-family: "Open Sans", sans-serif;
@@ -68,7 +68,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--colorOutline);
   margin: 1em 0;
   padding: 0; 
 }
@@ -90,7 +90,7 @@ fieldset {
 
 a,
 a:visited {
-  color: #4385F5;
+  color: var(--colorPrimary);
   text-decoration: underline; 
 }
 
@@ -101,10 +101,37 @@ img {
   vertical-align: middle;
 }
 
-.disabled {
+.disabled,
+.navdrawer > p {
   pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=50);
   -moz-opacity: 0.50;
        opacity: 0.50;
+}
+
+.COREX_UI_THEME_LIGHT {
+  --colorFont: #232F34;
+  --colorPrimary: #4385F5;
+  --colorSecondary: #77A7FB;
+  --colorBackground: #FFFFFF;
+  --colorBackgroundNavDrawer: #FFFFFF;
+  --colorBackgroundToolbar: #FFFFFF;
+  --colorBackgroundCard: #FFFFFF;
+  --colorOutline: #EEEEEE;
+  --colorIconNavDrawer: #727272;
+  --colorSelected: #F2F2F2;
+}
+
+.COREX_UI_THEME_DARK {
+  --colorFont: #E8EAED;
+  --colorPrimary: #8AB4F8;
+  --colorSecondary: #A1C3EF;
+  --colorBackground: #202124;
+  --colorBackgroundNavDrawer: #202124;
+  --colorBackgroundToolbar: #303134;
+  --colorBackgroundCard: #36373A;
+  --colorOutline: #5F6368;
+  --colorIconNavDrawer: #F1F3F4;
+  --colorSelected: #4d4d50;
 }

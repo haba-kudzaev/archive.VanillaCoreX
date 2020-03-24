@@ -5,7 +5,9 @@
  */
  
 var CoreX = {
-	ID_BACKDROP : "CoreX_UI_backdrop"
+	ID_BACKDROP: "CoreX_UI_backdrop",
+	ID_THEME_LIGHT: "COREX_UI_THEME_LIGHT",
+	ID_THEME_DARK: "COREX_UI_THEME_DARK"
 };
  
 /* =============
@@ -16,6 +18,29 @@ function init() {
 	initNavDrawer();
 	
 }
+
+/* ==================
+   CoreX Theme Engine */
+function setTheme(themeName) {
+	localStorage.setItem("theme", themeName);
+	document.documentElement.className = themeName;
+}
+
+function toggleTheme() {
+	if (localStorage.getItem("theme") === CoreX.ID_THEME_DARK) {
+		setTheme(CoreX.ID_THEME_LIGHT);
+	} else {
+		setTheme(CoreX.ID_THEME_DARK);
+	}
+}
+
+function applyTheme() {
+	if (localStorage.getItem("theme") === CoreX.ID_THEME_DARK) {
+		setTheme(CoreX.ID_THEME_DARK);
+	} else {
+		setTheme(CoreX.ID_THEME_LIGHT);
+	}
+} applyTheme();
 
 /* ==============
    CoreX Backdrop */

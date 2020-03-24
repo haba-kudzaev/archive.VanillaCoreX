@@ -10,7 +10,7 @@
   position: fixed;
   top: 0; left: 0;
   height: 4em;
-  width: 99%;
+  width: 100%;
   overflow: hidden;
   z-index: 999;
   -webkit-box-shadow: var(--box-shadow);
@@ -31,7 +31,7 @@
   margin-left: 0;
 }
 
-.toolbar-button {
+.toolbar-action_left {
   float: left;
   cursor: pointer;
   width: 3em;
@@ -40,7 +40,22 @@
   position: relative;
 }
 
-.toolbar-button > i {
+.toolbar-action_left > i {
+  cursor: pointer;
+  margin-top: 0.46em;
+  margin-left: 0.5em;
+}
+
+.toolbar-action_right {
+  float: right;
+  cursor: pointer;
+  width: 3em;
+  height: 3em;
+  margin: 0.54em 0.55em;
+  position: relative;
+}
+
+.toolbar-action_right > i {
   cursor: pointer;
   margin-top: 0.46em;
   margin-left: 0.5em;

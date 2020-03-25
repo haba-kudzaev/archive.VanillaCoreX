@@ -38,6 +38,7 @@
 
 /* NavDrawer Menu item */
 .navdrawer .item {
+  color: inherit;
   display: inline-block;
   overflow: hidden;
   position: relative;

@@ -5,7 +5,7 @@
  */
  
 .alert {
-  background-color: #ccc;
+  background-color: var(--colorBackgroundAlert);
   padding: 1em 1.2em;
   margin-bottom: 0.5em;
   -webkit-border-radius: var(--border-radius);
@@ -23,21 +23,21 @@
 }
 
 .alert-info {
-  background-color: #A0C2FF;
-  color: #002364;
+  background-color: var(--colorBackgroundAlert_info);
+  color: var(--colorFontAlert_info);
 }
 
 .alert-success {
-  background-color: #7BD0A9;
-  color: #004425;
+  background-color: var(--colorBackgroundAlert_success);
+  color: var(--colorFontAlert_success);
 }
 
 .alert-danger {
-  background-color: #ED9C98;
-  color: #700E00;
+  background-color: var(--colorBackgroundAlert_danger);
+  color: var(--colorFontAlert_danger);
 }
 
 .alert-warning {
-  background-color: #FFE167;
-  color: #5B4700;
+  background-color: var(--colorBackgroundAlert_warning);
+  color: var(--colorFontAlert_warning);
 }

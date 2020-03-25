@@ -17,6 +17,50 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+.COREX_UI_THEME_LIGHT {
+  --colorFont: #232F34;
+  --colorFontAlert_danger: #B71C1C;
+  --colorFontAlert_warning: #F57F17;
+  --colorFontAlert_success: #1B5E20;
+  --colorFontAlert_info: #0D47A1;
+  --colorPrimary: #4385F5;
+  --colorSecondary: #77A7FB;
+  --colorBackground: #FFFFFF;
+  --colorBackgroundNavDrawer: #FFFFFF;
+  --colorBackgroundToolbar: #FFFFFF;
+  --colorBackgroundCard: #FFFFFF;
+  --colorBackgroundAlert: #ccc;
+  --colorBackgroundAlert_danger: #FFEBEE;
+  --colorBackgroundAlert_warning: #FFF9C4;
+  --colorBackgroundAlert_success: #E8F5E9;
+  --colorBackgroundAlert_info: #E3F2FD;
+  --colorOutline: #EEEEEE;
+  --colorIconNavDrawer: #727272;
+  --colorSelected: #F2F2F2;
+}
+
+.COREX_UI_THEME_DARK {
+  --colorFont: #E8EAED;
+  --colorFontAlert_danger: #FFEBEE;
+  --colorFontAlert_warning: #FFF9C4;
+  --colorFontAlert_success: #E8F5E9;
+  --colorFontAlert_info: #E3F2FD;
+  --colorPrimary: #8AB4F8;
+  --colorSecondary: #A1C3EF;
+  --colorBackground: #202124;
+  --colorBackgroundNavDrawer: #202124;
+  --colorBackgroundToolbar: #303134;
+  --colorBackgroundCard: #36373A;
+  --colorBackgroundAlert: #28292C;
+  --colorBackgroundAlert_danger: #B71C1C;
+  --colorBackgroundAlert_warning: #F57F17;
+  --colorBackgroundAlert_success: #1B5E20;
+  --colorBackgroundAlert_info: #0D47A1;
+  --colorOutline: #5F6368;
+  --colorIconNavDrawer: #F1F3F4;
+  --colorSelected: #4d4d50;
+}
+
 * {
   -webkit-touch-callout: none;
   -webkit-box-sizing: border-box;
@@ -114,30 +158,4 @@ img[data-src] {
   filter: alpha(opacity=50);
   -moz-opacity: 0.50;
        opacity: 0.50;
-}
-
-.COREX_UI_THEME_LIGHT {
-  --colorFont: #232F34;
-  --colorPrimary: #4385F5;
-  --colorSecondary: #77A7FB;
-  --colorBackground: #FFFFFF;
-  --colorBackgroundNavDrawer: #FFFFFF;
-  --colorBackgroundToolbar: #FFFFFF;
-  --colorBackgroundCard: #FFFFFF;
-  --colorOutline: #EEEEEE;
-  --colorIconNavDrawer: #727272;
-  --colorSelected: #F2F2F2;
-}
-
-.COREX_UI_THEME_DARK {
-  --colorFont: #E8EAED;
-  --colorPrimary: #8AB4F8;
-  --colorSecondary: #A1C3EF;
-  --colorBackground: #202124;
-  --colorBackgroundNavDrawer: #202124;
-  --colorBackgroundToolbar: #303134;
-  --colorBackgroundCard: #36373A;
-  --colorOutline: #5F6368;
-  --colorIconNavDrawer: #F1F3F4;
-  --colorSelected: #4d4d50;
 }

@@ -10,10 +10,17 @@
   width: auto;
 }
 
+.layout img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .layout-card {
   background-color: var(--colorBackgroundCard);
   margin: 0.5em 0.5em;
-  padding: 0.5em 1.5em;
   word-break: break-word;
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
@@ -23,6 +30,22 @@
      -moz-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
 		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+}
+
+.layout-card-body {
+  padding: 0.5em 1.5em;
+}
+
+.layout-card img:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  --border-radius: 0.5em;
+}
+
+.layout-card img:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  --border-radius: 0.5em;
 }
 
 .layout-card button:last-child {

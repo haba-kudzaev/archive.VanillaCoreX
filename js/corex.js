@@ -14,6 +14,7 @@ var CoreX = {
    CoreX JS init */
 function init() {
 
+	initLazyLoadImg();
 	initBackdrop();
 	initNavDrawer();
 	
@@ -41,6 +42,17 @@ function applyTheme() {
 		setTheme(CoreX.ID_THEME_LIGHT);
 	}
 } applyTheme();
+
+/* =================
+   CoreX LazyLoadImg */
+function initLazyLoadImg() {
+	[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+		img.setAttribute('src', img.getAttribute('data-src'));
+		img.onload = function() {
+			img.removeAttribute('data-src');
+		};
+	});
+}
 
 /* ==============
    CoreX Backdrop */

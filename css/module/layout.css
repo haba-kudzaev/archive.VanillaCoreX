@@ -25,10 +25,9 @@
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
-  -webkit-box-shadow: var(--box-shadow);
-     -moz-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  -webkit-box-shadow: var(--shadowGlobal);
+     -moz-box-shadow: var(--shadowGlobal);
+          box-shadow: var(--shadowGlobal);
 }
 
 .layout-card-body {

@@ -11,7 +11,6 @@
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
-		  --border-radius: 0.5em;
 }
 
 .alert h4 {

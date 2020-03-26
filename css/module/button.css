@@ -22,24 +22,21 @@ button {
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
-		  --border-radius: 0.4em;
 }
 
 .button_pill {
-  -webkit-border-radius: var(--border-radius);
-     -moz-border-radius: var(--border-radius);
-          border-radius: var(--border-radius);
-		  --border-radius: 5em;;
+  -webkit-border-radius: 5em;
+     -moz-border-radius: 5em;
+          border-radius: 5em;
 }
 
 .button-outline {
   background-color: inherit;
   border: 2px solid var(--colorOutline);
   color: inherit;
-  -webkit-box-shadow: var(--box-shadow);
-     -moz-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-		  --box-shadow: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
 }
 
 button::-moz-focus-inner {

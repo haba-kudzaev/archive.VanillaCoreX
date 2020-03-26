@@ -15,10 +15,9 @@ button {
   text-align: center;
   text-transform: uppercase;
   -webkit-appearance: button;
-  -webkit-box-shadow: var(--box-shadow);
-     -moz-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  -webkit-box-shadow: var(--shadowButton);
+     -moz-box-shadow: var(--shadowButton);
+          box-shadow: var(--shadowButton);
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
@@ -54,10 +53,9 @@ button:active {
 button:not(.button-outline):active {
   background-color: var(--colorSecondary);
   transform: translateY(-1px);
-  -webkit-box-shadow: var(--box-shadow);
-     -moz-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-		  --box-shadow: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: var(--shadowButton-active);
+     -moz-box-shadow: var(--shadowButton-active);
+          box-shadow: var(--shadowButton-active);
 }
 
 .button-outline:active {

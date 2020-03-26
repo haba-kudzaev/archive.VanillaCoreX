@@ -62,9 +62,9 @@
   --colorOutline: #5F6368;
   --colorIconNavDrawer: #F1F3F4;
   --colorSelected: #4d4d50;
-  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
-  --shadowButton: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
-  --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
+  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .6);
+  --shadowButton: 0 0.15em 0.8em -0.2em rgb(0, 0, 0, .8);
+  --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(138, 180, 248, .2);
 }
 
 * {

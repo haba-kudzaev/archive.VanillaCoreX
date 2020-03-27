@@ -82,7 +82,7 @@ input[type="radio"]:not(:checked) + label:after {
   border-radius: 100%;
   background-color: var(--colorPrimary);
   left: .28em;
-  top: .82em;
+  top: .83em;
   width: .76em;
   height: .73em;
 }

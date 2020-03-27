@@ -30,7 +30,7 @@
           box-shadow: var(--shadowGlobal);
 }
 
-.layout-card-body {
+.layout-card_body {
   padding: 0.5em 1.5em;
 }
 

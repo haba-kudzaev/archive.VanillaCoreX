@@ -43,25 +43,25 @@
 }
 
 .COREX_UI_THEME_DARK {
-  --colorFont: #DBDDDE;
+  --colorFont: #E8EAED;
   --colorFontAlert_danger: #FFEBEE;
   --colorFontAlert_warning: #FFF9C4;
   --colorFontAlert_success: #E8F5E9;
   --colorFontAlert_info: #E3F2FD;
   --colorPrimary: #8AB4F8;
-  --colorSecondary: #A1C3EF;
-  --colorBackground: #121212;
-  --colorBackgroundNavDrawer: #151515;
-  --colorBackgroundToolbar: #151515;
-  --colorBackgroundCard: #191919;
-  --colorBackgroundAlert: #151515;
+  --colorSecondary: #627598;
+  --colorBackground: #2D2E31;
+  --colorBackgroundNavDrawer: #202124;
+  --colorBackgroundToolbar: #434447;
+  --colorBackgroundCard: #434447;
+  --colorBackgroundAlert: #38393D;
   --colorBackgroundAlert_danger: #B71C1C;
   --colorBackgroundAlert_warning: #F57F17;
   --colorBackgroundAlert_success: #1B5E20;
   --colorBackgroundAlert_info: #0D47A1;
-  --colorOutline: #202020;
+  --colorOutline: #5F6368;
   --colorIconNavDrawer: #F1F3F4;
-  --colorSelected: #4d4d50;
+  --colorSelected: #394456;
   --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .6);
   --shadowButton: 0 0.15em 0.8em -0.2em rgb(0, 0, 0, .8);
   --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(138, 180, 248, .2);

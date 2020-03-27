@@ -4,13 +4,14 @@
  * @license     MIT License
  */
  
-.toolbar{
+.toolbar {
   background-color: var(--colorBackgroundToolbar);
   display: inline-block;
   position: fixed;
   top: 0; left: 0;
   height: 4em;
   width: 100%;
+  padding: 0.54em 0.55em;
   overflow: hidden;
   z-index: 999;
   -webkit-box-shadow: var(--shadowGlobal);
@@ -25,36 +26,18 @@
 .toolbar > h3 {
   float: left;
   position: relative;
-  top: 1em;
+  top: 0.53em;
   margin: 0;
-  margin-left: 0;
+  margin-left: 0.2em;
 }
 
-.toolbar-action_left {
-  float: left;
+.toolbar-action {
   cursor: pointer;
   width: 3em;
   height: 3em;
-  margin: 0.54em 0.55em;
-  position: relative;
 }
 
-.toolbar-action_left > i {
-  cursor: pointer;
-  margin-top: 0.46em;
-  margin-left: 0.5em;
-}
-
-.toolbar-action_right {
-  float: right;
-  cursor: pointer;
-  width: 3em;
-  height: 3em;
-  margin: 0.54em 0.55em;
-  position: relative;
-}
-
-.toolbar-action_right > i {
+.toolbar-action > i {
   cursor: pointer;
   margin-top: 0.46em;
   margin-left: 0.5em;

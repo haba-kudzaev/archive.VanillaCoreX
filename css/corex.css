@@ -43,23 +43,23 @@
 }
 
 .COREX_UI_THEME_DARK {
-  --colorFont: #E8EAED;
+  --colorFont: #DBDDDE;
   --colorFontAlert_danger: #FFEBEE;
   --colorFontAlert_warning: #FFF9C4;
   --colorFontAlert_success: #E8F5E9;
   --colorFontAlert_info: #E3F2FD;
   --colorPrimary: #8AB4F8;
   --colorSecondary: #A1C3EF;
-  --colorBackground: #202124;
-  --colorBackgroundNavDrawer: #202124;
-  --colorBackgroundToolbar: #303134;
-  --colorBackgroundCard: #36373A;
-  --colorBackgroundAlert: #28292C;
+  --colorBackground: #121212;
+  --colorBackgroundNavDrawer: #151515;
+  --colorBackgroundToolbar: #151515;
+  --colorBackgroundCard: #191919;
+  --colorBackgroundAlert: #151515;
   --colorBackgroundAlert_danger: #B71C1C;
   --colorBackgroundAlert_warning: #F57F17;
   --colorBackgroundAlert_success: #1B5E20;
   --colorBackgroundAlert_info: #0D47A1;
-  --colorOutline: #5F6368;
+  --colorOutline: #202020;
   --colorIconNavDrawer: #F1F3F4;
   --colorSelected: #4d4d50;
   --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .6);
@@ -166,4 +166,12 @@ img[data-src] {
   filter: alpha(opacity=50);
   -moz-opacity: 0.50;
        opacity: 0.50;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }

@@ -10,7 +10,7 @@
   background: inherit;
   border: 0.1em solid var(--colorOutline);
   list-style: none;
-  padding: 1em;
+  padding: 0.8em;
   overflow-y: scroll;
   white-space: nowrap;
   -webkit-border-radius: var(--border-radius);

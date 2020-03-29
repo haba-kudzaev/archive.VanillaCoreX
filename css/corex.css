@@ -63,7 +63,7 @@
   --colorOutline: #5F6368;
   --colorIconNavDrawer: #F1F3F4;
   --colorSelected: #394456;
-  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .6);
+  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
   --shadowButton: 0 0.15em 0.8em -0.2em rgb(0, 0, 0, .8);
   --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(138, 180, 248, .2);
 }
@@ -145,6 +145,10 @@ a,
 a:visited {
   color: var(--colorPrimary);
   text-decoration: underline; 
+}
+
+a:active {
+  color: var(--colorSecondary);
 }
 
 img {

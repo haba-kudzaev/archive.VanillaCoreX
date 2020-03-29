@@ -4,7 +4,7 @@
  * @license     MIT License
  */
 
-/* ViewGallery */
+/* GalleryView */
 
 .view-gallery {
   background: inherit;
@@ -22,6 +22,9 @@
   border: none;
   margin: 0 -1.5em 1em;
   padding: 0 1.5em;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
 }
 
 .view-gallery > li {

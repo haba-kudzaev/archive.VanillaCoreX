@@ -7,6 +7,7 @@
 button {
   background-color: var(--colorPrimary);
   padding: 0.5em 0.8em;
+  margin-bottom: 1.2em;
   border: none;
   color: White;
   cursor: pointer;
@@ -29,15 +30,6 @@ button {
           border-radius: 5em;
 }
 
-.button-outline {
-  background-color: inherit;
-  border: 2px solid var(--colorOutline);
-  color: inherit;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
-          box-shadow: none;
-}
-
 button::-moz-focus-inner {
    border: none;
 }
@@ -50,7 +42,7 @@ button:active {
           transition-duration: .8s;
 }
 
-button:not(.button-outline):active {
+button:active {
   background-color: var(--colorSecondary);
   transform: translateY(-1px);
   -webkit-box-shadow: var(--shadowButton-active);
@@ -58,8 +50,8 @@ button:not(.button-outline):active {
           box-shadow: var(--shadowButton-active);
 }
 
-.button-outline:active {
+button a,
+button a:visited {
   color: White;
-  background-color: var(--colorPrimary);
-  border-color: var(--colorPrimary);
+  text-decoration: none; 
 }

@@ -52,6 +52,6 @@ button:active {
 
 button a,
 button a:visited {
-  color: White;
+  color: White !important;
   text-decoration: none; 
 }

@@ -5,7 +5,7 @@
  */
  
 .alert {
-  background-color: var(--colorBackgroundAlert);
+  background: var(--colorBackgroundAlert);
   padding: 1em 1.2em;
   margin-bottom: 0.5em;
   -webkit-border-radius: var(--border-radius);
@@ -22,21 +22,21 @@
 }
 
 .alert-info {
-  background-color: var(--colorBackgroundAlert_info);
+  background: var(--colorBackgroundAlert_info);
   color: var(--colorFontAlert_info);
 }
 
 .alert-success {
-  background-color: var(--colorBackgroundAlert_success);
+  background: var(--colorBackgroundAlert_success);
   color: var(--colorFontAlert_success);
 }
 
 .alert-danger {
-  background-color: var(--colorBackgroundAlert_danger);
+  background: var(--colorBackgroundAlert_danger);
   color: var(--colorFontAlert_danger);
 }
 
 .alert-warning {
-  background-color: var(--colorBackgroundAlert_warning);
+  background: var(--colorBackgroundAlert_warning);
   color: var(--colorFontAlert_warning);
 }

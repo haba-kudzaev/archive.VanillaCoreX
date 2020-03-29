@@ -5,7 +5,7 @@
  */
  
 button {
-  background-color: var(--colorPrimary);
+  background: var(--colorPrimary);
   padding: 0.5em 0.8em;
   margin-bottom: 1.2em;
   border: none;
@@ -22,6 +22,14 @@ button {
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);
+}
+
+.COREX_UI_THEME_DARK button {
+  background: transparent;
+  border: 0.1em solid var(--colorOutline);
+  -webkit-box-shadow: var(--shadowButton);
+     -moz-box-shadow: var(--shadowButton);
+          box-shadow: var(--shadowButton);
 }
 
 .button_pill {
@@ -43,11 +51,17 @@ button:active {
 }
 
 button:active {
-  background-color: var(--colorSecondary);
+  background: var(--colorSecondary);
   transform: translateY(-1px);
   -webkit-box-shadow: var(--shadowButton-active);
      -moz-box-shadow: var(--shadowButton-active);
           box-shadow: var(--shadowButton-active);
+}
+
+.COREX_UI_THEME_DARK button:active {
+  background: var(--colorSecondary);
+  border-color: var(--colorSecondary);
+  transform: none;
 }
 
 button a,

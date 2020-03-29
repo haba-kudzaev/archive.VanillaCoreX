@@ -29,7 +29,7 @@ input[type="checkbox"]:not(:checked) + label:before,
 input[type="radio"]:checked + label:before, 
 input[type="radio"]:not(:checked) + label:before {
   border: .08em solid var(--colorSecondary);
-  background-color: inherit;
+  background: inherit;
   content: "";
   position: absolute;
   left: .1em;
@@ -80,7 +80,7 @@ input[type="checkbox"]:not(:checked) + label:after {
 input[type="radio"]:checked + label:after, 
 input[type="radio"]:not(:checked) + label:after {
   border-radius: 100%;
-  background-color: var(--colorPrimary);
+  background: var(--colorPrimary);
   left: .28em;
   top: .83em;
   width: .76em;

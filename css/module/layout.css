@@ -19,7 +19,7 @@
 }
 
 .layout-card {
-  background-color: var(--colorBackgroundCard);
+  background: var(--colorBackgroundCard);
   margin: 0.5em 0.5em;
   word-break: break-word;
   -webkit-border-radius: var(--border-radius);

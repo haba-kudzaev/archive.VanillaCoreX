@@ -49,7 +49,7 @@
   --colorFontAlert_warning: #FFF9C4;
   --colorFontAlert_success: #E8F5E9;
   --colorFontAlert_info: #E3F2FD;
-  --colorPrimary: #8AB4F8;
+  --colorPrimary: #6FA4FA;
   --colorSecondary: #627598;
   --colorBackground: #2D2E31;
   --colorBackgroundNavDrawer: #202124;
@@ -64,8 +64,8 @@
   --colorIconNavDrawer: #F1F3F4;
   --colorSelected: #394456;
   --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
-  --shadowButton: 0 0.15em 0.8em -0.2em rgb(0, 0, 0, .8);
-  --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(138, 180, 248, .2);
+  --shadowButton: none;
+  --shadowButton-active: none;
 }
 
 * {

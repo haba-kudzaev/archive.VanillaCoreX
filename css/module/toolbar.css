@@ -19,6 +19,13 @@
           box-shadow: var(--shadowGlobal);
 }
 
+.COREX_UI_THEME_DARK .toolbar {
+  border-bottom: 0.1em solid var(--colorOutline);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
 .toolbar ~ .container {
   margin-top: 5em;
 }

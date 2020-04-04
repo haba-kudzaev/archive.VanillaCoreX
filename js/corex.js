@@ -5,9 +5,9 @@
  */
  
 var CoreX = {
-	ID_BACKDROP: "CoreX_UI_backdrop",
-	ID_THEME_LIGHT: "COREX_UI_THEME_LIGHT",
-	ID_THEME_DARK: "COREX_UI_THEME_DARK"
+	ID_BACKDROP: 'CoreX_UI_BACKDROP',
+	ID_THEME_LIGHT: 'COREX_UI_THEME_LIGHT',
+	ID_THEME_DARK: 'COREX_UI_THEME_DARK'
 };
  
 /* =============
@@ -23,12 +23,12 @@ function init() {
 /* ==================
    CoreX Theme Engine */
 function setTheme(themeName) {
-	localStorage.setItem("theme", themeName);
+	localStorage.setItem('theme', themeName);
 	document.documentElement.className = themeName;
 }
 
 function toggleTheme() {
-	if (localStorage.getItem("theme") === CoreX.ID_THEME_DARK) {
+	if (localStorage.getItem('theme') === CoreX.ID_THEME_DARK) {
 		setTheme(CoreX.ID_THEME_LIGHT);
 	} else {
 		setTheme(CoreX.ID_THEME_DARK);
@@ -36,7 +36,7 @@ function toggleTheme() {
 }
 
 function applyTheme() {
-	if (localStorage.getItem("theme") === CoreX.ID_THEME_DARK) {
+	if (localStorage.getItem('theme') === CoreX.ID_THEME_DARK) {
 		setTheme(CoreX.ID_THEME_DARK);
 	} else {
 		setTheme(CoreX.ID_THEME_LIGHT);
@@ -58,11 +58,11 @@ function initLazyLoadImg() {
    CoreX Backdrop */
 function initBackdrop() {
 
-	var a = document.createElement("div");
+	var a = document.createElement('div');
 
-	a.className = "backdrop";
-	a.style.backgroundColor = "rgba(0, 0, 0, 0);";
-	a.style.visibility = "hidden";
+	a.className = 'backdrop';
+	a.style.backgroundColor = 'rgba(0, 0, 0, 0);';
+	a.style.visibility = 'hidden';
 	a.id = CoreX.ID_BACKDROP;
 	a.onclick = function() {
 		hideNavDrawer();
@@ -73,23 +73,23 @@ function initBackdrop() {
 }
 
 function showBackdrop() {
-	document.getElementById(CoreX.ID_BACKDROP).style.visibility = "visible";
-	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+	document.getElementById(CoreX.ID_BACKDROP).style.visibility = 'visible';
+	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
 }
 
 function hideBackdrop() {
-	document.getElementById(CoreX.ID_BACKDROP).style.visibility = "hidden";
-	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = "rgba(0, 0, 0, 0)";
+	document.getElementById(CoreX.ID_BACKDROP).style.visibility = 'hidden';
+	document.getElementById(CoreX.ID_BACKDROP).style.backgroundColor = 'rgba(0, 0, 0, 0)';
 }
 
 /* ===============
    CoreX NavDrawer */
 function initNavDrawer() {
 
-	var a = document.getElementsByClassName("navdrawer")[0];
+	var a = document.getElementsByClassName('navdrawer')[0];
 
 	if (a !== undefined) {
-		a.style.left = "-300px";
+		a.style.left = '-300px';
 	}
 
 }
@@ -98,11 +98,11 @@ function showNavDrawer() {
 	
 	showBackdrop();
 
-	var a = document.getElementsByClassName("navdrawer")[0];
+	var a = document.getElementsByClassName('navdrawer')[0];
 
 	if (a !== undefined) {
-		a.style.left = "0px";
-		a.style.visibility = "visible";
+		a.style.left = '0px';
+		a.style.visibility = 'visible';
 	}
 
 }
@@ -111,10 +111,10 @@ function hideNavDrawer() {
 	
 	hideBackdrop();
 
-	var a = document.getElementsByClassName("navdrawer")[0];
+	var a = document.getElementsByClassName('navdrawer')[0];
 
 	if (a !== undefined) {
-		a.style.left = "-300px";
+		a.style.left = '-300px';
 	}
 
 }

@@ -59,8 +59,8 @@ button:active {
 }
 
 .COREX_UI_THEME_DARK button:active {
-  background: var(--colorSecondary);
-  border-color: var(--colorSecondary);
+  background: var(--colorPrimary);
+  border-color: var(--colorPrimary);
   transform: none;
 }
 

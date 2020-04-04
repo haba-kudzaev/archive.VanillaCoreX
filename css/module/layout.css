@@ -30,6 +30,13 @@
           box-shadow: var(--shadowGlobal);
 }
 
+.COREX_UI_THEME_DARK .layout-card {
+  border: 0.1em solid var(--colorOutline);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
 .layout-card_body {
   padding: 0.5em 1.5em;
 }

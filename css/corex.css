@@ -38,7 +38,7 @@
   --colorOutline: #EEEEEE;
   --colorIconNavDrawer: #727272;
   --colorSelected: #F2F2F2;
-  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
+  --shadowGlobal: 0 0.15em 1em -0.2em rgba(0, 0, 0, .2);
   --shadowButton: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
   --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
 }
@@ -63,7 +63,7 @@
   --colorOutline: #1F1F1F;
   --colorIconNavDrawer: #F1F3F4;
   --colorSelected: #1A1A1A;
-  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  --shadowGlobal: none;
   --shadowButton: none;
   --shadowButton-active: none;
 }
@@ -86,11 +86,6 @@
   --border-radius: 0.5em;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
 ::-moz-selection {
   background: #A0C2FF;
   color: White;
@@ -107,14 +102,18 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-html, body {
+html {
+  overflow: auto;
+}
+
+body {
   background: var(--colorBackground);
   color: var(--colorFont);
   padding: auto;
   margin: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
-  scrollbar-width: none; 
-  -ms-overflow-style: none;
 }
 
 hr {

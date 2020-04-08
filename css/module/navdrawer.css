@@ -22,7 +22,15 @@
   -webkit-box-shadow: var(--box-shadow);
      -moz-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
-		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
+		    --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
+}
+
+.COREX_UI_THEME_DARK .navdrawer {
+  border-right: 0.1em solid var(--colorOutline);
+  -webkit-box-shadow: var(--box-shadow);
+     -moz-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+        --box-shadow: none;
 }
 
 .navdrawer > img {

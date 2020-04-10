@@ -3,21 +3,21 @@
  * @copyright   Copyright (c) o1310, 2020
  * @license     MIT License
  */
- 
+
 var CoreX = {
 	ID_BACKDROP: 'CoreX_UI_BACKDROP',
 	ID_THEME_LIGHT: 'COREX_UI_THEME_LIGHT',
 	ID_THEME_DARK: 'COREX_UI_THEME_DARK'
 };
- 
+
 /* =============
    CoreX JS init */
 function init() {
 
-	initLazyLoadImg();
 	initBackdrop();
 	initNavDrawer();
-	
+  initLazyLoadImg();
+
 }
 
 /* ==================
@@ -95,7 +95,7 @@ function initNavDrawer() {
 }
 
 function showNavDrawer() {
-	
+
 	showBackdrop();
 
 	var a = document.getElementsByClassName('navdrawer')[0];
@@ -108,7 +108,7 @@ function showNavDrawer() {
 }
 
 function hideNavDrawer() {
-	
+
 	hideBackdrop();
 
 	var a = document.getElementsByClassName('navdrawer')[0];

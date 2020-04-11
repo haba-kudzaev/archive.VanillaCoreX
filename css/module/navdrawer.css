@@ -47,7 +47,8 @@
 /* NavDrawer Menu item */
 .navdrawer .item {
   color: inherit;
-  display: inline-block;
+  cursor: pointer;
+  display: block;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -61,7 +62,7 @@
 }
 
 .navdrawer .item > p {
-  display: inline-block;
+  display: block;
   font-weight: bold;
   font-size: 11pt;
   float: left;
@@ -75,7 +76,7 @@
 
 .navdrawer .item > i {
   color: var(--colorIconNavDrawer);
-  display: inline-block;
+  display: block;
   float: left;
   margin: 0px;
   margin-left: 0.6em;

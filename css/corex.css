@@ -102,10 +102,6 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-html {
-  overflow: auto;
-}
-
 body {
   background: var(--colorBackground);
   color: var(--colorFont);

@@ -13,3 +13,7 @@
 .text-lowercase { text-transform: lowercase; }
 .text-uppercase { text-transform: uppercase; }
 .text-capitalize { text-transform: capitalize; }
+.text_danger { color: var(--clrFntAlert_d); }
+.text_warning { color: var(--clrFntAlert_w); }
+.text_success { color: var(--clrFntAlert_s); }
+.text_info { color: var(--clrFntAlert_i); }

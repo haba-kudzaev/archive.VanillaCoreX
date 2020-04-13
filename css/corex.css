@@ -26,16 +26,18 @@
   --clrFntAlert_i: #0D47A1;
   --clrPrimary: #4385F5;
   --clrSecondary: #77A7FB;
-  --clrBg: #FFFFFF;
-  --clrBgNavDrawer: #FFFFFF;
-  --clrBgToolbar: #FFFFFF;
-  --clrBgCard: #FFFFFF;
+  --clrBg: #FFF;
+  --clrBgNavDrawer: #FFF;
+  --clrBgToolbar: #FFF;
+  --clrBgCard: #FFF;
   --clrBgAlert: #ccc;
   --clrBgAlert_d: #FFEBEE;
   --clrBgAlert_w: #FFF9C4;
   --clrBgAlert_s: #E8F5E9;
   --clrBgAlert_i: #E3F2FD;
-  --clrOutline: #EEEEEE;
+  --clrBgScrollbar: #eee;
+  --clrScrollbar: #bdbdbd;
+  --clrOutline: #EEE;
   --clrIconNavDrawer: #727272;
   --clrSelected: #F2F2F2;
   --shadowGlobal: 0 0.15em 1em -0.2em rgba(0, 0, 0, .2);
@@ -51,15 +53,17 @@
   --clrFntAlert_i: #E3F2FD;
   --clrPrimary: #8AB4F8;
   --clrSecondary: #617EAB;
-  --clrBg: #000000;
-  --clrBgNavDrawer: #000000;
-  --clrBgToolbar: #000000;
-  --clrBgCard: #000000;
+  --clrBg: #000;
+  --clrBgNavDrawer: #000;
+  --clrBgToolbar: #000;
+  --clrBgCard: #000;
   --clrBgAlert: #1A1A1A;
   --clrBgAlert_d: #B71C1C;
   --clrBgAlert_w: #F57F17;
   --clrBgAlert_s: #1B5E20;
   --clrBgAlert_i: #0D47A1;
+  --clrBgScrollbar: #1F1F1F;
+  --clrScrollbar: #ccc;
   --clrOutline: #1F1F1F;
   --clrIconNavDrawer: #F1F3F4;
   --clrSelected: #1A1A1A;
@@ -84,6 +88,8 @@
   -webkit-tap-highlight-color: rgba(0,0,0,0); 
   /* variables */
   --border-radius: 0.5em;
+  --scrollbarBg: var(--clrBgScrollbar);
+  --scrollbarClr: var(--clrScrollbar);
 }
 
 ::-moz-selection {
@@ -102,21 +108,22 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-body::-webkit-scrollbar {
-  width: 11px;
+::-webkit-scrollbar {
+  width: 10px;
 }
-body {
-  scrollbar-width: thin;
-  scrollbar-color: var(--clrSelected) var(--clrBg);
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBg);
 }
-body::-webkit-scrollbar-track {
-  background: var(--clrBg);
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarClr);
+  border: 3px solid var(--scrollbarBg);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+       border-radius: var(--border-radius);
 }
-body::-webkit-scrollbar-thumb {
-  background-color: var(--clrSelected) ;
-  border-radius: 6px;
-  border: 3px solid var(--clrBg);
-}
+
 body {
   background: var(--clrBg);
   color: var(--clrFnt);
@@ -124,6 +131,8 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbarClr) var(--scrollbarBg);
 }
 
 hr {

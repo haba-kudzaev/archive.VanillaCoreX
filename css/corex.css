@@ -27,6 +27,7 @@
   --clrPrimary: #4385F5;
   --clrSecondary: #77A7FB;
   --clrBg: #FFF;
+  --clrBgFooter: #ccc;
   --clrBgNavDrawer: #FFF;
   --clrBgToolbar: #FFF;
   --clrBgCard: #FFF;
@@ -54,6 +55,7 @@
   --clrPrimary: #8AB4F8;
   --clrSecondary: #617EAB;
   --clrBg: #000;
+  --clrBgFooter: #121212;
   --clrBgNavDrawer: #000;
   --clrBgToolbar: #000;
   --clrBgCard: #000;

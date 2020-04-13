@@ -19,50 +19,50 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 .COREX_UI_THEME_LIGHT {
-  --colorFont: #232F34;
-  --colorFontAlert_danger: #B71C1C;
-  --colorFontAlert_warning: #F57F17;
-  --colorFontAlert_success: #1B5E20;
-  --colorFontAlert_info: #0D47A1;
-  --colorPrimary: #4385F5;
-  --colorSecondary: #77A7FB;
-  --colorBackground: #FFFFFF;
-  --colorBackgroundNavDrawer: #FFFFFF;
-  --colorBackgroundToolbar: #FFFFFF;
-  --colorBackgroundCard: #FFFFFF;
-  --colorBackgroundAlert: #ccc;
-  --colorBackgroundAlert_danger: #FFEBEE;
-  --colorBackgroundAlert_warning: #FFF9C4;
-  --colorBackgroundAlert_success: #E8F5E9;
-  --colorBackgroundAlert_info: #E3F2FD;
-  --colorOutline: #EEEEEE;
-  --colorIconNavDrawer: #727272;
-  --colorSelected: #F2F2F2;
+  --clrFnt: #232F34;
+  --clrFntAlert_d: #B71C1C;
+  --clrFntAlert_w: #F57F17;
+  --clrFntAlert_s: #1B5E20;
+  --clrFntAlert_i: #0D47A1;
+  --clrPrimary: #4385F5;
+  --clrSecondary: #77A7FB;
+  --clrBg: #FFFFFF;
+  --clrBgNavDrawer: #FFFFFF;
+  --clrBgToolbar: #FFFFFF;
+  --clrBgCard: #FFFFFF;
+  --clrBgAlert: #ccc;
+  --clrBgAlert_d: #FFEBEE;
+  --clrBgAlert_w: #FFF9C4;
+  --clrBgAlert_s: #E8F5E9;
+  --clrBgAlert_i: #E3F2FD;
+  --clrOutline: #EEEEEE;
+  --clrIconNavDrawer: #727272;
+  --clrSelected: #F2F2F2;
   --shadowGlobal: 0 0.15em 1em -0.2em rgba(0, 0, 0, .2);
   --shadowButton: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
   --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
 }
 
 .COREX_UI_THEME_DARK {
-  --colorFont: #E8EAED;
-  --colorFontAlert_danger: #FFEBEE;
-  --colorFontAlert_warning: #FFF9C4;
-  --colorFontAlert_success: #E8F5E9;
-  --colorFontAlert_info: #E3F2FD;
-  --colorPrimary: #8AB4F8;
-  --colorSecondary: #617EAB;
-  --colorBackground: #000000;
-  --colorBackgroundNavDrawer: #000000;
-  --colorBackgroundToolbar: #000000;
-  --colorBackgroundCard: #000000;
-  --colorBackgroundAlert: #1A1A1A;
-  --colorBackgroundAlert_danger: #B71C1C;
-  --colorBackgroundAlert_warning: #F57F17;
-  --colorBackgroundAlert_success: #1B5E20;
-  --colorBackgroundAlert_info: #0D47A1;
-  --colorOutline: #1F1F1F;
-  --colorIconNavDrawer: #F1F3F4;
-  --colorSelected: #1A1A1A;
+  --clrFnt: #E8EAED;
+  --clrFntAlert_d: #FFEBEE;
+  --clrFntAlert_w: #FFF9C4;
+  --clrFntAlert_s: #E8F5E9;
+  --clrFntAlert_i: #E3F2FD;
+  --clrPrimary: #8AB4F8;
+  --clrSecondary: #617EAB;
+  --clrBg: #000000;
+  --clrBgNavDrawer: #000000;
+  --clrBgToolbar: #000000;
+  --clrBgCard: #000000;
+  --clrBgAlert: #1A1A1A;
+  --clrBgAlert_d: #B71C1C;
+  --clrBgAlert_w: #F57F17;
+  --clrBgAlert_s: #1B5E20;
+  --clrBgAlert_i: #0D47A1;
+  --clrOutline: #1F1F1F;
+  --clrIconNavDrawer: #F1F3F4;
+  --clrSelected: #1A1A1A;
   --shadowGlobal: none;
   --shadowButton: none;
   --shadowButton-active: none;
@@ -102,9 +102,24 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
+body::-webkit-scrollbar {
+  width: 11px;
+}
 body {
-  background: var(--colorBackground);
-  color: var(--colorFont);
+  scrollbar-width: thin;
+  scrollbar-color: var(--clrSelected) var(--clrBg);
+}
+body::-webkit-scrollbar-track {
+  background: var(--clrBg);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clrSelected) ;
+  border-radius: 6px;
+  border: 3px solid var(--clrBg);
+}
+body {
+  background: var(--clrBg);
+  color: var(--clrFnt);
   margin: auto;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -115,7 +130,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid var(--colorOutline);
+  border-top: 1px solid var(--clrOutline);
   margin: 1em 0;
   padding: 0; 
 }
@@ -137,12 +152,12 @@ fieldset {
 
 a,
 a:visited {
-  color: var(--colorPrimary);
+  color: var(--clrPrimary);
   text-decoration: underline; 
 }
 
 a:active {
-  color: var(--colorSecondary);
+  color: var(--clrSecondary);
 }
 
 img {

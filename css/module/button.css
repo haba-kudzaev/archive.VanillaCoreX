@@ -5,7 +5,7 @@
  */
  
 button {
-  background: var(--colorPrimary);
+  background: var(--clrPrimary);
   padding: 0.5em 0.8em;
   margin-bottom: 1.2em;
   border: none;
@@ -26,7 +26,7 @@ button {
 
 .COREX_UI_THEME_DARK button {
   background: transparent;
-  border: 0.1em solid var(--colorOutline);
+  border: 0.1em solid var(--clrOutline);
   -webkit-box-shadow: var(--shadowButton);
      -moz-box-shadow: var(--shadowButton);
           box-shadow: var(--shadowButton);
@@ -51,7 +51,7 @@ button:active {
 }
 
 button:active {
-  background: var(--colorSecondary);
+  background: var(--clrSecondary);
   transform: translateY(-1px);
   -webkit-box-shadow: var(--shadowButton-active);
      -moz-box-shadow: var(--shadowButton-active);
@@ -59,8 +59,8 @@ button:active {
 }
 
 .COREX_UI_THEME_DARK button:active {
-  background: var(--colorPrimary);
-  border-color: var(--colorPrimary);
+  background: var(--clrPrimary);
+  border-color: var(--clrPrimary);
   transform: none;
 }
 

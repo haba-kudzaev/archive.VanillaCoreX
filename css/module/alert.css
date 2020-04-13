@@ -5,7 +5,7 @@
  */
  
 .alert {
-  background: var(--colorBackgroundAlert);
+  background: var(--clrBgAlert);
   padding: 1em 1.2em;
   margin-bottom: 0.5em;
   -webkit-border-radius: var(--border-radius);
@@ -22,21 +22,21 @@
 }
 
 .alert-info {
-  background: var(--colorBackgroundAlert_info);
-  color: var(--colorFontAlert_info);
+  background: var(--clrBgAlert_i);
+  color: var(--clrFntAlert_i);
 }
 
 .alert-success {
-  background: var(--colorBackgroundAlert_success);
-  color: var(--colorFontAlert_success);
+  background: var(--clrBgAlert_s);
+  color: var(--clrFntAlert_s);
 }
 
 .alert-danger {
-  background: var(--colorBackgroundAlert_danger);
-  color: var(--colorFontAlert_danger);
+  background: var(--clrBgAlert_d);
+  color: var(--clrFntAlert_d);
 }
 
 .alert-warning {
-  background: var(--colorBackgroundAlert_warning);
-  color: var(--colorFontAlert_warning);
+  background: var(--clrBgAlert_w);
+  color: var(--clrFntAlert_w);
 }

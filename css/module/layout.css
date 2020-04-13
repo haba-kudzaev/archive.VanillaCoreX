@@ -19,7 +19,7 @@
 }
 
 .layout-card {
-  background: var(--colorBackgroundCard);
+  background: var(--clrBgCard);
   margin: 0.5em 0.5em;
   word-break: break-word;
   -webkit-border-radius: var(--border-radius);
@@ -31,7 +31,7 @@
 }
 
 .COREX_UI_THEME_DARK .layout-card {
-  border: 0.1em solid var(--colorOutline);
+  border: 0.1em solid var(--clrOutline);
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
           box-shadow: none;

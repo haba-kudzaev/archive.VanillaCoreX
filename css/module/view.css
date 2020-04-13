@@ -8,7 +8,7 @@
 
 .view-gallery {
   background: inherit;
-  border: 0.1em solid var(--colorOutline);
+  border: 0.1em solid var(--clrOutline);
   list-style: none;
   padding: 0.8em;
   overflow-y: hidden;

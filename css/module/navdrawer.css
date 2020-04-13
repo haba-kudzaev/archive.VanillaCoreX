@@ -5,7 +5,7 @@
  */
  
 .navdrawer {
-  background: var(--colorBackgroundNavDrawer);
+  background: var(--clrBgNavDrawer);
   display: inline-block;
   height: 100%;
   width: 300px;
@@ -26,7 +26,7 @@
 }
 
 .COREX_UI_THEME_DARK .navdrawer {
-  border-right: 0.1em solid var(--colorOutline);
+  border-right: 0.1em solid var(--clrOutline);
   -webkit-box-shadow: var(--box-shadow);
      -moz-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
@@ -75,7 +75,7 @@
 }
 
 .navdrawer .item > i {
-  color: var(--colorIconNavDrawer);
+  color: var(--clrIconNavDrawer);
   display: block;
   float: left;
   margin: 0px;
@@ -86,10 +86,10 @@
 
 .navdrawer .item:active,
 .navdrawer .item.selected {
-  background: var(--colorSelected);
+  background: var(--clrSelected);
 }
 
 .navdrawer .item.selected > i,
 .navdrawer .item.selected > p {
-  color: var(--colorPrimary);
+  color: var(--clrPrimary);
 }

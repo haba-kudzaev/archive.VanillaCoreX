@@ -12,6 +12,7 @@
 @import url(module/grid.css);
 @import url(module/layout.css);
 @import url(module/navdrawer.css);
+@import url(module/table.css);
 @import url(module/toolbar.css);
 @import url(module/typography.css);
 @import url(module/view.css);
@@ -233,6 +234,7 @@ img[data-src] {
 
 a,
 textarea,
+.table-hover tbody tr,
 .view-list li:not(.head),
 .navdrawer .item {
   -webkit-transition: 0.3s ease-out 0s;

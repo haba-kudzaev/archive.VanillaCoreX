@@ -203,7 +203,7 @@ img[data-src] {
   float: right;
 }
 
-.layout-list li:not(.head),
+.view-list li:not(.head),
 .navdrawer .item {
   -webkit-transition: background 0.3s ease-out 0s;
      -moz-transition: background 0.3s ease-out 0s;

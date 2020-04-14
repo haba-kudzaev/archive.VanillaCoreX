@@ -46,6 +46,11 @@
   cursor: pointer;
 }
 
+.view-list li:not(.head) {
+  border-bottom: 1px solid var(--clrOutline);
+  border-bottom-style: dotted;
+}
+
 .view-list li:active {
   background: var(--clrSelected);
 }
@@ -56,6 +61,7 @@
 }
 
 .view-list li:last-child {
+  border-style: none;
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }

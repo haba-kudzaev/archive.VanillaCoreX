@@ -111,21 +111,32 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-::-webkit-scrollbar {
-  width: 10px;
+@media (min-width: 768px) {
+
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbarClr) var(--scrollbarBg);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBg);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbarClr);
+    border: 3px solid var(--scrollbarBg);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+         border-radius: var(--border-radius);
+  }
+  
 }
 
-::-webkit-scrollbar-track {
-  background: var(--scrollbarBg);
-}
 
-::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbarClr);
-  border: 3px solid var(--scrollbarBg);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-       border-radius: var(--border-radius);
-}
 
 body {
   background: var(--clrBg);
@@ -134,8 +145,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
-  scrollbar-width: thin;
-  scrollbar-color: var(--scrollbarClr) var(--scrollbarBg);
+  
 }
 
 hr {

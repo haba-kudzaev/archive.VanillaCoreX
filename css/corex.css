@@ -8,6 +8,7 @@
 @import url(module/backdrop.css);
 @import url(module/button.css);
 @import url(module/checkbox.css);
+@import url(module/footer.css);
 @import url(module/grid.css);
 @import url(module/layout.css);
 @import url(module/navdrawer.css);
@@ -199,4 +200,12 @@ img[data-src] {
 
 .right {
   float: right;
+}
+
+.layout-list li:active,
+.navdrawer .item {
+  -webkit-transition: background 0.3s ease-out 0s;
+     -moz-transition: background 0.3s ease-out 0s;
+       -o-transition: background 0.3s ease-out 0s;
+	      transition: background 0.3s ease-out 0s;
 }

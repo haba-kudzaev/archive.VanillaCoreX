@@ -87,6 +87,7 @@
 .layout-list li.head {
   background: inherit !important;
   cursor: default;
+  font: bold;
 }
 
 .layout-list li a {

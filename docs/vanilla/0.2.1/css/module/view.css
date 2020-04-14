@@ -1,0 +1,32 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+
+/* GalleryView */
+
+.view-gallery {
+  background: inherit;
+  border: 0.1em solid var(--colorOutline);
+  list-style: none;
+  padding: 0.8em;
+  overflow-y: scroll;
+  white-space: nowrap;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+}
+
+.layout-card .view-gallery {
+  border: none;
+  margin: 0 -1.5em 1em;
+  padding: 0 1.5em;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.view-gallery > li {
+  display: inline-block; 
+}

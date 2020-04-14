@@ -1,0 +1,44 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+.toolbar {
+  background-color: var(--colorBackgroundToolbar);
+  display: inline-block;
+  position: fixed;
+  top: 0; left: 0;
+  height: 4em;
+  width: 100%;
+  padding: 0.54em 0.55em;
+  overflow: hidden;
+  z-index: 999;
+  -webkit-box-shadow: var(--shadowGlobal);
+     -moz-box-shadow: var(--shadowGlobal);
+          box-shadow: var(--shadowGlobal);
+}
+
+.toolbar ~ .container {
+  margin-top: 5em;
+}
+
+.toolbar > h3 {
+  float: left;
+  position: relative;
+  top: 0.53em;
+  margin: 0;
+  margin-left: 0.2em;
+}
+
+.toolbar-action {
+  cursor: pointer;
+  width: 3em;
+  height: 3em;
+}
+
+.toolbar-action > i {
+  cursor: pointer;
+  margin-top: 0.46em;
+  margin-left: 0.5em;
+}

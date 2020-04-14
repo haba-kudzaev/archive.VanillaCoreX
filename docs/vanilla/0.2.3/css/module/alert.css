@@ -1,0 +1,42 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+.alert {
+  background: var(--clrBgAlert);
+  padding: 1em 1.2em;
+  margin-bottom: 0.5em;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+}
+
+.alert h4 {
+  margin: 0;
+}
+
+.alert p:last-child {
+  margin-bottom: 0;
+}
+
+.alert-info {
+  background: var(--clrBgAlert_i);
+  color: var(--clrFntAlert_i);
+}
+
+.alert-success {
+  background: var(--clrBgAlert_s);
+  color: var(--clrFntAlert_s);
+}
+
+.alert-danger {
+  background: var(--clrBgAlert_d);
+  color: var(--clrFntAlert_d);
+}
+
+.alert-warning {
+  background: var(--clrBgAlert_w);
+  color: var(--clrFntAlert_w);
+}

@@ -1,0 +1,43 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+.alert {
+  background-color: #ccc;
+  padding: 1em 1.2em;
+  margin-bottom: 0.5em;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 0.5em;
+}
+
+.alert h4 {
+  margin: 0;
+}
+
+.alert p:last-child {
+  margin-bottom: 0;
+}
+
+.alert-info {
+  background-color: #A0C2FF;
+  color: #002364;
+}
+
+.alert-success {
+  background-color: #7BD0A9;
+  color: #004425;
+}
+
+.alert-danger {
+  background-color: #ED9C98;
+  color: #700E00;
+}
+
+.alert-warning {
+  background-color: #FFE167;
+  color: #5B4700;
+}

@@ -1,0 +1,182 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+@import url(module/alert.css);
+@import url(module/backdrop.css);
+@import url(module/button.css);
+@import url(module/checkbox.css);
+@import url(module/grid.css);
+@import url(module/layout.css);
+@import url(module/navdrawer.css);
+@import url(module/toolbar.css);
+@import url(module/typography.css);
+@import url(module/view.css);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.COREX_UI_THEME_LIGHT {
+  --colorFont: #232F34;
+  --colorFontAlert_danger: #B71C1C;
+  --colorFontAlert_warning: #F57F17;
+  --colorFontAlert_success: #1B5E20;
+  --colorFontAlert_info: #0D47A1;
+  --colorPrimary: #4385F5;
+  --colorSecondary: #77A7FB;
+  --colorBackground: #FFFFFF;
+  --colorBackgroundNavDrawer: #FFFFFF;
+  --colorBackgroundToolbar: #FFFFFF;
+  --colorBackgroundCard: #FFFFFF;
+  --colorBackgroundAlert: #ccc;
+  --colorBackgroundAlert_danger: #FFEBEE;
+  --colorBackgroundAlert_warning: #FFF9C4;
+  --colorBackgroundAlert_success: #E8F5E9;
+  --colorBackgroundAlert_info: #E3F2FD;
+  --colorOutline: #EEEEEE;
+  --colorIconNavDrawer: #727272;
+  --colorSelected: #F2F2F2;
+  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .3);
+  --shadowButton: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
+}
+
+.COREX_UI_THEME_DARK {
+  --colorFont: #E8EAED;
+  --colorFontAlert_danger: #FFEBEE;
+  --colorFontAlert_warning: #FFF9C4;
+  --colorFontAlert_success: #E8F5E9;
+  --colorFontAlert_info: #E3F2FD;
+  --colorPrimary: #8AB4F8;
+  --colorSecondary: #627598;
+  --colorBackground: #2D2E31;
+  --colorBackgroundNavDrawer: #202124;
+  --colorBackgroundToolbar: #434447;
+  --colorBackgroundCard: #434447;
+  --colorBackgroundAlert: #38393D;
+  --colorBackgroundAlert_danger: #B71C1C;
+  --colorBackgroundAlert_warning: #F57F17;
+  --colorBackgroundAlert_success: #1B5E20;
+  --colorBackgroundAlert_info: #0D47A1;
+  --colorOutline: #5F6368;
+  --colorIconNavDrawer: #F1F3F4;
+  --colorSelected: #394456;
+  --shadowGlobal: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+  --shadowButton: 0 0.15em 0.8em -0.2em rgb(0, 0, 0, .8);
+  --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(138, 180, 248, .2);
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+		  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  /* variables */
+  --border-radius: 0.5em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-moz-selection {
+  background: #A0C2FF;
+  color: White;
+  text-shadow: none; 
+}
+  
+::selection {
+  background: #A0C2FF;
+  color: White;
+  text-shadow: none;
+}
+
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html, body {
+  background: var(--colorBackground);
+  color: var(--colorFont);
+  padding: auto;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--colorOutline);
+  margin: 1em 0;
+  padding: 0; 
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; 
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; 
+}
+
+a,
+a:visited {
+  color: var(--colorPrimary);
+  text-decoration: underline; 
+}
+
+a:active {
+  color: var(--colorSecondary);
+}
+
+img {
+  overflow: none;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+.disabled,
+.navdrawer > p {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.50;
+       opacity: 0.50;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

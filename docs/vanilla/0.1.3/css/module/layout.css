@@ -1,0 +1,30 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+
+.layout {
+  margin: 0.5em 0em;
+  padding: 0.5em 0.5em;
+  width: auto;
+}
+
+.layout-card {
+  background: White;
+  margin: 0.5em 0.5em;
+  padding: 0.5em 1.5em;
+  word-break: break-word;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 0.5em;
+  -webkit-box-shadow: var(--box-shadow);
+     -moz-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+		  --box-shadow: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
+}
+
+.layout-card button:last-child {
+  margin-bottom: 1em;
+}

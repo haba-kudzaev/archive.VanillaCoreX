@@ -1,0 +1,57 @@
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ */
+ 
+button {
+  background-color: var(--colorPrimary);
+  padding: 0.5em 0.8em;
+  margin-bottom: 1.2em;
+  border: none;
+  color: White;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: button;
+  -webkit-box-shadow: var(--shadowButton);
+     -moz-box-shadow: var(--shadowButton);
+          box-shadow: var(--shadowButton);
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+}
+
+.button_pill {
+  -webkit-border-radius: 5em;
+     -moz-border-radius: 5em;
+          border-radius: 5em;
+}
+
+button::-moz-focus-inner {
+   border: none;
+}
+
+button:hover,
+button:active {
+  -webkit-transition-duration: .8s;
+     -moz-transition-duration: .8s;
+       -o-transition-duration: .8s;
+          transition-duration: .8s;
+}
+
+button:active {
+  background-color: var(--colorSecondary);
+  transform: translateY(-1px);
+  -webkit-box-shadow: var(--shadowButton-active);
+     -moz-box-shadow: var(--shadowButton-active);
+          box-shadow: var(--shadowButton-active);
+}
+
+button a,
+button a:visited {
+  color: White;
+  text-decoration: none; 
+}

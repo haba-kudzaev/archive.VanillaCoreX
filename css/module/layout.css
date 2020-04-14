@@ -99,3 +99,9 @@
 .layout-list li:active a {
   color: inherit; 
 }
+
+.layout-list li p {
+  margin-top: 0.4em;
+  margin-bottom: 0;
+  font-size: smaller;
+}

@@ -156,6 +156,26 @@ video {
   vertical-align: middle; 
 }
 
+input,
+textarea {
+  color: inherit;
+  background-color: inherit !important;
+  border: 0.05em solid var(--clrOutline);
+  display: block;
+  font-size: inherit;
+  padding: .7em;
+  width: 100%;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--clrPrimary);
+}
+
 fieldset {
   border: 0;
   margin: 0;

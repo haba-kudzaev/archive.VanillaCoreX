@@ -86,8 +86,10 @@
 
 .layout-list li.head {
   background: inherit !important;
+  color: var(--clrPrimary);
   cursor: default;
   font: bold;
+  padding-bottom: 0.5em;
 }
 
 .layout-list li a {

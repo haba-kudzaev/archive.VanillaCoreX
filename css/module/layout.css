@@ -106,4 +106,6 @@
   margin-top: 0.4em;
   margin-bottom: 0;
   font-size: smaller;
+  -moz-opacity: 0.6;
+       opacity: 0.6;
 }

@@ -182,7 +182,8 @@ img {
 }
 
 img[data-src] {
-  opacity: 0;
+  -moz-opacity: 0;
+       opacity: 0;
 }
 
 .disabled,

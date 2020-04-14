@@ -156,7 +156,7 @@ video {
   vertical-align: middle; 
 }
 
-input,
+input:not([type="button"]),
 textarea {
   color: inherit;
   background-color: inherit !important;
@@ -170,7 +170,7 @@ textarea {
           border-radius: var(--border-radius);
 }
 
-input:focus,
+input:not([type="button"]):focus,
 textarea:focus {
   outline: none;
   border-color: var(--clrPrimary);

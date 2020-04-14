@@ -133,10 +133,8 @@
     -moz-border-radius: var(--border-radius);
          border-radius: var(--border-radius);
   }
-  
+
 }
-
-
 
 body {
   background: var(--clrBg);
@@ -233,10 +231,12 @@ img[data-src] {
   float: right;
 }
 
+a,
+textarea,
 .view-list li:not(.head),
 .navdrawer .item {
-  -webkit-transition: background 0.3s ease-out 0s;
-     -moz-transition: background 0.3s ease-out 0s;
-       -o-transition: background 0.3s ease-out 0s;
-	      transition: background 0.3s ease-out 0s;
+  -webkit-transition: 0.3s ease-out 0s;
+     -moz-transition: 0.3s ease-out 0s;
+       -o-transition: 0.3s ease-out 0s;
+	      transition: 0.3s ease-out 0s;
 }

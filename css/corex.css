@@ -201,6 +201,33 @@ a:active {
   color: var(--clrSecondary);
 }
 
+blockquote {
+  position: relative;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.35;
+  letter-spacing: 0.08em; 
+}
+
+blockquote:before {
+  position: absolute;
+  left: -0.5em;
+  content: '“'; 
+}
+
+blockquote:after {
+  content: '”';
+  margin-left: -0.05em; 
+}
+
+ul, ol {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0; 
+}
+
 img {
   overflow: none;
   max-width: 100%;

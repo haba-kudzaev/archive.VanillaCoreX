@@ -23,19 +23,19 @@
 .COREX_UI_THEME_LIGHT {
   --clrFnt: #232F34;
   --clrFntAlert_d: #B71C1C;
-  --clrFntAlert_w: #F57F17;
+  --clrFntAlert_w: #af5c13;
   --clrFntAlert_s: #1B5E20;
   --clrFntAlert_i: #0D47A1;
   --clrPrimary: #4385F5;
   --clrSecondary: #77A7FB;
   --clrBg: #FFF;
-  --clrBgFooter: #EFEFEF;
+  --clrBgFooter: #ccc;
   --clrBgNavDrawer: #FFF;
   --clrBgToolbar: #FFF;
   --clrBgCard: #FFF;
   --clrBgAlert: #ccc;
   --clrBgAlert_d: #FFEBEE;
-  --clrBgAlert_w: #FFF9C4;
+  --clrBgAlert_w: #eee8b6;
   --clrBgAlert_s: #E8F5E9;
   --clrBgAlert_i: #E3F2FD;
   --clrBgScrollbar: #eee;

@@ -20,6 +20,16 @@ function init() {
 
 }
 
+/* ===============
+	 CoreX Functions */
+function goBack() {
+	window.history.back();
+}
+
+function goForward() {
+	window.history.forward();
+}
+
 /* ==================
    CoreX Theme Engine */
 function setTheme(themeName) {

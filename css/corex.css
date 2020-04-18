@@ -248,6 +248,12 @@ img.circle {
           border-radius: var(--border-radius);
 		  --border-radius: 100%!important;
 }
+img.rounded {
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 0.5em!important;
+}
 .disabled,
 .navdrawer > p {
   pointer-events: none;

@@ -243,10 +243,9 @@ img[data-src] {
 }
 
 img.circle {
-  -webkit-border-radius: var(--border-radius);
-     -moz-border-radius: var(--border-radius);
-          border-radius: var(--border-radius);
-		  --border-radius: 100%!important;
+  -webkit-border-radius: 100% !important;
+     -moz-border-radius: 100% !important;
+          border-radius: 100% !important;
 }
 img.rounded {
   -webkit-border-radius: var(--border-radius);
@@ -254,6 +253,13 @@ img.rounded {
           border-radius: var(--border-radius);
 		  --border-radius: 0.5em!important;
 }
+
+img.oval {
+  -webkit-border-radius: 1.2em !important;
+     -moz-border-radius: 1.2em !important;
+          border-radius: 1.2em !important;
+}
+
 .disabled,
 .navdrawer > p {
   pointer-events: none;

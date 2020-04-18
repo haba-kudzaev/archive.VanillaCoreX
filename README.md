@@ -4,10 +4,12 @@
   </a>
 </p>
 
-<h3 align="center">CoreX</h3>
+<p align="center">Минималистичный, простой, легкий и красивый фреймворк для верстки простых веб-сайтов, написанный с использованием чистого JavaScript и CSS.
+  <br><br>
+  <a href="https://github.com/o1310/CoreX/releases">Github Releases</a> · <a href="https://rx1310.github.io/corex-preview/">CoreX Previews</a>
+</p>
 
-## Описание ветки VanillaCoreX
-**VanillaCoreX** - минималистичный, простой, легкий и красивый фреймворк для верстки простых веб-сайтов, написанный с использованием чистого JavaScript и CSS.
+---
 
 ### Использованные ресурсы и репозитории
 * [Twitter Bootstrap](https://github.com/twbs/bootstrap) - позаимствована сетка Bootstrap Grid
@@ -42,7 +44,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-### Ссылки
-* [Github Releases](https://github.com/o1310/CoreX/releases) - загрузка готовых CSS и JS файлов
-* [CoreX Previews](https://rx1310.github.io/corex-preview/) - предпросмотр готовых страниц, использующих релизные или тестовые версии CoreX

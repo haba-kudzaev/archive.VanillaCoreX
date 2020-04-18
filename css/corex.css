@@ -242,6 +242,12 @@ img[data-src] {
        opacity: 0;
 }
 
+img.circle {
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
+		  --border-radius: 100%!important;
+}
 .disabled,
 .navdrawer > p {
   pointer-events: none;

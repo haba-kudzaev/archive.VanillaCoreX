@@ -247,11 +247,11 @@ img.circle {
      -moz-border-radius: 100% !important;
           border-radius: 100% !important;
 }
-img.rounded {
-  -webkit-border-radius: var(--border-radius);
-     -moz-border-radius: var(--border-radius);
-          border-radius: var(--border-radius);
-		  --border-radius: 0.5em!important;
+
+img.round {
+  -webkit-border-radius: 0.5em !important;
+     -moz-border-radius: 0.5em !important;
+          border-radius: 0.5em !important;
 }
 
 img.oval {

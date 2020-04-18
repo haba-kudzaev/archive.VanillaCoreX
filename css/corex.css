@@ -279,6 +279,7 @@ img.oval {
 
 a,
 textarea,
+input:not([type="button"]),
 .table-hover tbody tr,
 .view-list li:not(.head),
 .navdrawer .item {

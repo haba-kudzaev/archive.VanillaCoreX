@@ -11,6 +11,25 @@
 
 ---
 
+### Модули VanillaCoreX
+- css/
+  - _corex.css_
+    - _alert.css_
+    - _backdrop.css_
+    - _button.css_
+    - _checkbox.css_
+    - _footer.css_
+    - _grid.css_ - Bootstrap Grid
+    - _layout.css_
+    - _navdrawer.css_
+    - _table.css_
+    - _toolbar.css_
+    - _typography.css_
+    - _view.css_
+- js/
+  - corex.js
+---
+
 ### Использованные ресурсы и репозитории
 * [Twitter Bootstrap](https://github.com/twbs/bootstrap) - позаимствована сетка Bootstrap Grid
 * [MicroUI](https://github.com/rx1310/MicroUI) - позаимствовано немного кода из прародителя CoreX

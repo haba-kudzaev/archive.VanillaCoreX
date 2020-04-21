@@ -3,7 +3,7 @@
  * @copyright   Copyright (c) o1310, 2020
  * @license     MIT License
  */
- 
+
 @import url(module/alert.css);
 @import url(module/backdrop.css);
 @import url(module/button.css);
@@ -80,17 +80,17 @@
 * {
   -webkit-touch-callout: none;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-	   -o-box-sizing: border-box;
-		  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* variables */
   --border-radius: 0.5em;
   --scrollbarBg: var(--clrBgScrollbar);
@@ -100,18 +100,26 @@
 ::-moz-selection {
   background: var(--clrSecondary);
   color: White;
-  text-shadow: none; 
+  text-shadow: none;
 }
-  
+
 ::selection {
   background: var(--clrSecondary);
   color: White;
   text-shadow: none;
 }
 
-@-ms-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@viewport { width: device-width; }
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
 
 @media (min-width: 425px) {
 
@@ -123,17 +131,17 @@
   ::-webkit-scrollbar {
     width: 10px;
   }
-  
+
   ::-webkit-scrollbar-track {
     background: var(--scrollbarBg);
   }
-  
+
   ::-webkit-scrollbar-thumb {
     background-color: var(--scrollbarClr);
     border: 3px solid var(--scrollbarBg);
     -webkit-border-radius: var(--border-radius);
     -moz-border-radius: var(--border-radius);
-         border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
   }
 
 }
@@ -153,7 +161,7 @@ hr {
   border: 0;
   border-top: 1px solid var(--clrOutline);
   margin: 1em 0;
-  padding: 0; 
+  padding: 0;
 }
 
 audio,
@@ -162,7 +170,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 input:not([type="button"]),
@@ -175,8 +183,8 @@ textarea {
   padding: .7em;
   width: 100%;
   -webkit-border-radius: var(--border-radius);
-     -moz-border-radius: var(--border-radius);
-          border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  border-radius: var(--border-radius);
 }
 
 input:not([type="button"]):focus,
@@ -188,13 +196,13 @@ textarea:focus {
 fieldset {
   border: 0;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 a,
 a:visited {
   color: var(--clrPrimary);
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 a:active {
@@ -207,25 +215,26 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   line-height: 1.35;
-  letter-spacing: 0.08em; 
+  letter-spacing: 0.08em;
 }
 
 blockquote:before {
   position: absolute;
   left: -0.5em;
-  content: '“'; 
+  content: '“';
 }
 
 blockquote:after {
   content: '”';
-  margin-left: -0.05em; 
+  margin-left: -0.05em;
 }
 
-ul, ol {
+ul,
+ol {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0; 
+  letter-spacing: 0;
 }
 
 img {
@@ -239,34 +248,34 @@ img {
 
 img[data-src] {
   -moz-opacity: 0;
-       opacity: 0;
+  opacity: 0;
 }
 
 img.circle {
   -webkit-border-radius: 100% !important;
-     -moz-border-radius: 100% !important;
-          border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  border-radius: 100% !important;
 }
 
 img.round {
   -webkit-border-radius: 0.5em !important;
-     -moz-border-radius: 0.5em !important;
-          border-radius: 0.5em !important;
+  -moz-border-radius: 0.5em !important;
+  border-radius: 0.5em !important;
 }
 
 img.oval {
   -webkit-border-radius: 1.2em !important;
-     -moz-border-radius: 1.2em !important;
-          border-radius: 1.2em !important;
+  -moz-border-radius: 1.2em !important;
+  border-radius: 1.2em !important;
 }
 
 .disabled,
-.navdrawer > p {
+.navdrawer>p {
   pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=50);
   -moz-opacity: 0.50;
-       opacity: 0.50;
+  opacity: 0.50;
 }
 
 .left {
@@ -284,7 +293,7 @@ input:not([type="button"]),
 .view-list li:not(.head),
 .navdrawer .item {
   -webkit-transition: 0.3s ease-out 0s;
-     -moz-transition: 0.3s ease-out 0s;
-       -o-transition: 0.3s ease-out 0s;
-	      transition: 0.3s ease-out 0s;
+  -moz-transition: 0.3s ease-out 0s;
+  -o-transition: 0.3s ease-out 0s;
+  transition: 0.3s ease-out 0s;
 }

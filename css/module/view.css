@@ -57,15 +57,13 @@
   background: var(--clrSelected);
 }
 
-.view-list li:first-child {
-  border-top-left-radius: var(--border-radius);
-  border-top-right-radius: var(--border-radius);
+.view-list li:first-child:not(.head) {
+  margin-top: 0.3em;
 }
 
 .view-list li:last-child {
   border-style: none;
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
+  margin-bottom: 0.3em;
 }
 
 .view-list li.head {

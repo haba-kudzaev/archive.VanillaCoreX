@@ -112,7 +112,7 @@
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
-@media (min-width: 768px) {
+@media (min-width: 425px) {
 
   body {
     scrollbar-width: thin;
@@ -144,7 +144,6 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
-  
 }
 
 hr {

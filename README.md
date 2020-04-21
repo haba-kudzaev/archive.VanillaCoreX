@@ -35,6 +35,7 @@
 * [Twitter Bootstrap](https://github.com/twbs/bootstrap) - позаимствована сетка Bootstrap Grid
 * [MicroUI](https://github.com/rx1310/MicroUI) - позаимствовано немного кода из прародителя CoreX
 * [Material-Design-Framework](https://github.com/Igorgro/Material-Design-Framework) - часть кода NavDrawer и Toolbar
+* [highlight.js](https://github.com/highlightjs) - подсветка кода hljs
 
 ### Авторы
 * [rx1310](https://github.com/rx1310) - создание и идея проекта

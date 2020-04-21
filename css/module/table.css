@@ -28,26 +28,26 @@ th {
   padding: 0;
 }
  
-.table {
+table {
   width: 100%;
   margin-bottom: 1rem;
   color: inherit;
 }
 
-.table th,
-.table td {
+table th,
+table td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid var(--clrOutline);
 }
 
-.table thead th {
+table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid var(--clrOutline);
   border-top:none;
 }
 
-.table tbody + tbody {
+table tbody + tbody {
   border-top: 2px solid var(--clrOutline);
 }
 

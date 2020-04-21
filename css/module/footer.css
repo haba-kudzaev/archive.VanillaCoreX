@@ -8,4 +8,5 @@ footer {
   background: var(--clrBgFooter);
   border-top: 0.1em dotted var(--clrOutline);
   padding: 0.5em 1.8em;
+  margin-top: 1em;
 }

@@ -67,7 +67,7 @@
 }
 
 .view-list li.head {
-  background: inherit !important;
+  background: transparent !important;
   color: var(--clrPrimary);
   cursor: default;
   font: bold;

@@ -12,14 +12,10 @@
   overflow-y: hidden;
   padding: 0.5em 1em;
   white-space: pre;
-  -webkit-user-select: all;
-     -moz-user-select: all;
-      -ms-user-select: all;
-          user-select: all;
-   -moz-tab-size: 1;
-    -ms-tab-size: 1;
-     -o-tab-size: 1;
-	      tab-size: 1;
+   -moz-tab-size: 2;
+    -ms-tab-size: 2;
+     -o-tab-size: 2;
+	      tab-size: 2;
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);
           border-radius: var(--border-radius);

@@ -4,7 +4,7 @@
  * @license     MIT License
  */
 
-var CoreX = {
+const CoreX = {
 	ID_BACKDROP: 'CoreX_UI_BACKDROP',
 	ID_THEME_LIGHT: 'COREX_UI_THEME_LIGHT',
 	ID_THEME_DARK: 'COREX_UI_THEME_DARK'
@@ -16,7 +16,7 @@ function init() {
 
 	initBackdrop();
 	initNavDrawer();
-  initLazyLoadImg();
+	initLazyLoadImg();
 
 }
 

@@ -1,87 +1,74 @@
-.hljs {
+/*!
+ * @author      rx1310 <rx1310@inbox.ru>
+ * @copyright   Copyright (c) o1310, 2020
+ * @license     MIT License
+ * @based       android-studio.css (by Pedro Oliveira <kanytu@gmail.com>)
+ */
+
+ .hljs {
+  color: #a9b7c6;
+  border: 0.1em solid var(--clrOutline);
   display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: #333;
-  background: #f8f8f8;
-}
-
-.hljs-comment,
-.hljs-quote {
-  color: #998;
-  font-style: italic;
-}
-
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst {
-  color: #333;
-  font-weight: bold;
+  overflow-y: hidden;
+  padding: 0.5em 1em;
+  white-space: pre;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+   -moz-tab-size: 1;
+    -ms-tab-size: 1;
+     -o-tab-size: 1;
+	      tab-size: 1;
+  -webkit-border-radius: var(--border-radius);
+     -moz-border-radius: var(--border-radius);
+          border-radius: var(--border-radius);
 }
 
 .hljs-number,
 .hljs-literal,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag .hljs-attr {
-  color: #008080;
-}
-
-.hljs-string,
-.hljs-doctag {
-  color: #d14;
-}
-
-.hljs-title,
-.hljs-section,
-.hljs-selector-id {
-  color: #900;
-  font-weight: bold;
-}
-
-.hljs-subst {
-  font-weight: normal;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-  color: #458;
-  font-weight: bold;
-}
-
-.hljs-tag,
-.hljs-name,
-.hljs-attribute {
-  color: #000080;
-  font-weight: normal;
-}
-
-.hljs-regexp,
-.hljs-link {
-  color: #009926;
-}
-
 .hljs-symbol,
 .hljs-bullet {
-  color: #990073;
+  color: #6897BB;
 }
 
-.hljs-built_in,
-.hljs-builtin-name {
-  color: #0086b3;
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion {
+  color: #cc7832;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link {
+  color: #629755;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #808080;
 }
 
 .hljs-meta {
-  color: #999;
-  font-weight: bold;
+  color: #bbb529;
 }
 
-.hljs-deletion {
-  background: #fdd;
-}
-
+.hljs-string,
+.hljs-attribute,
 .hljs-addition {
-  background: #dfd;
+  color: #6A8759;
+}
+
+.hljs-section,
+.hljs-title,
+.hljs-type {
+  color: #ffc66d;
+}
+
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e8bf6a;
 }
 
 .hljs-emphasis {

@@ -20,6 +20,7 @@
     - _checkbox.css_
     - _footer.css_
     - _grid.css_ - Bootstrap Grid
+    - _hljs.css_ - highlight.js
     - _layout.css_
     - _navdrawer.css_
     - _table.css_

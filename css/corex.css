@@ -97,13 +97,13 @@
 }
 
 ::-moz-selection {
-  background: #A0C2FF;
+  background: var(--clrSecondary);
   color: White;
   text-shadow: none; 
 }
   
 ::selection {
-  background: #A0C2FF;
+  background: var(--clrSecondary);
   color: White;
   text-shadow: none;
 }

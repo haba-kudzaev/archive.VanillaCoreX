@@ -24,6 +24,11 @@
   top: initial;
 }
 
+.COREX_UI_THEME_LIGHT .toolbar-bottom {
+  --clrBgToolbar: #000000 !important;
+  color: #E8EAED !important;
+}
+
 .COREX_UI_THEME_DARK .toolbar {
   border-bottom: 0.1em solid var(--clrOutline);
   -webkit-box-shadow: none;

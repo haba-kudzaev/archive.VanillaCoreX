@@ -125,6 +125,7 @@ function hideNavDrawer() {
 
 	if (a !== undefined) {
 		a.style.left = '-300px';
+		a.style.visibility = 'hidden';
 	}
 
 }

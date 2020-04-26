@@ -270,12 +270,17 @@ img.oval {
 }
 
 .disabled,
-.navdrawer>p {
+.navdrawer > p {
   pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=50);
   -moz-opacity: 0.50;
   opacity: 0.50;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
 }
 
 .left {

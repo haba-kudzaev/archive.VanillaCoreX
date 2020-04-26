@@ -12,13 +12,9 @@ const CoreX = {
 
 /* =============
    CoreX JS init */
-function init() {
-
-	initBackdrop();
-	initNavDrawer();
-	initLazyLoadImg();
-
-}
+initBackdrop();
+initNavDrawer();
+initLazyLoadImg();
 
 /* ===============
 	 CoreX Functions */
@@ -100,6 +96,7 @@ function initNavDrawer() {
 
 	if (a !== undefined) {
 		a.style.left = '-300px';
+		a.style.visibility = 'hidden';
 	}
 
 }
@@ -130,4 +127,6 @@ function hideNavDrawer() {
 
 }
 
-window.onload = init;
+window.onload = function() {
+	document.getElementsByClassName('dummy')[0].style.visibility = 'hidden';
+};

@@ -144,6 +144,24 @@
     border-radius: var(--border-radius);
   }
 
+  .toolbar {
+    bottom: initial;
+    top: 0 !important;
+  }
+
+  .toolbar ~ .container {
+    margin-top: 5em;
+  }
+
+  .toolbar ~ footer {
+    margin-bottom: 0;
+  }
+
+  .COREX_UI_THEME_DARK .toolbar {
+    border-bottom: 0.1em solid var(--clrOutline);
+    border-top: none;
+  }
+
 }
 
 body {

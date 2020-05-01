@@ -280,19 +280,19 @@ img[data-src] {
   opacity: 0;
 }
 
-img.circle {
+.circle {
   -webkit-border-radius: 100% !important;
   -moz-border-radius: 100% !important;
   border-radius: 100% !important;
 }
 
-img.round {
+.round {
   -webkit-border-radius: 0.5em !important;
   -moz-border-radius: 0.5em !important;
   border-radius: 0.5em !important;
 }
 
-img.oval {
+.oval {
   -webkit-border-radius: 1.2em !important;
   -moz-border-radius: 1.2em !important;
   border-radius: 1.2em !important;

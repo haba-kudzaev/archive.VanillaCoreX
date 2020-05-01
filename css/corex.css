@@ -165,7 +165,7 @@
   }
 
   .toolbar ~ footer {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 
   .COREX_UI_THEME_DARK .toolbar {

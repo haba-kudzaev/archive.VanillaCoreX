@@ -33,7 +33,6 @@
   --clrBgFooter: #eee;
   --clrBgNavDrawer: #FFF;
   --clrBgToolbar: #FFF;
-  --clrBgCard: #FFF;
   --clrBgAlert: #ccc;
   --clrBgAlert_d: #FFEBEE;
   --clrBgAlert_w: #eee8b6;
@@ -50,18 +49,17 @@
 }
 
 .COREX_UI_THEME_DARK {
-  --clrFnt: #E8EAED;
+  --clrFnt: rgba(254, 254, 254, 0.8);
   --clrFntAlert_d: #FFEBEE;
   --clrFntAlert_w: #FFF9C4;
   --clrFntAlert_s: #E8F5E9;
   --clrFntAlert_i: #E3F2FD;
   --clrPrimary: #8AB4F8;
   --clrSecondary: #617EAB;
-  --clrBg: #000;
+  --clrBg: rgba(0, 0, 0, 0.98);
   --clrBgFooter: #121212;
-  --clrBgNavDrawer: #000;
-  --clrBgToolbar: #000;
-  --clrBgCard: #000;
+  --clrBgNavDrawer: rgba(0, 0, 0, 0.9);
+  --clrBgToolbar: rgba(0, 0, 0, 0.9);
   --clrBgAlert: #1A1A1A;
   --clrBgAlert_d: #B71C1C;
   --clrBgAlert_w: #F57F17;

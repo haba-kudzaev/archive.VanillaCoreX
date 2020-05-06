@@ -30,6 +30,7 @@
   --clrPrimary: #4385F5;
   --clrSecondary: #77A7FB;
   --clrBg: #FFF;
+  --clrBg_selected: #F2F2F2;
   --clrBgFooter: #eee;
   --clrBgNavDrawer: #FFF;
   --clrBgToolbar: #FFF;
@@ -42,7 +43,6 @@
   --clrScrollbar: #bdbdbd;
   --clrOutline: #EEE;
   --clrIconNavDrawer: #727272;
-  --clrSelected: #F2F2F2;
   --shadowGlobal: 0 0.15em 1em -0.2em rgba(0, 0, 0, .2);
   --shadowButton: 0 0.15em 0.8em -0.2em rgba(0, 0, 0, .4);
   --shadowButton-active: 0 0.15em 0.8em -0.1em rgba(0, 0, 0, .8);
@@ -57,6 +57,7 @@
   --clrPrimary: #8AB4F8;
   --clrSecondary: #617EAB;
   --clrBg: rgba(0, 0, 0, 0.98);
+  --clrBg_selected: #1a1a1a;
   --clrBgFooter: #121212;
   --clrBgNavDrawer: rgba(0, 0, 0, 0.9);
   --clrBgToolbar: rgba(0, 0, 0, 0.9);
@@ -69,7 +70,6 @@
   --clrScrollbar: #999999;
   --clrOutline: #1F1F1F;
   --clrIconNavDrawer: #F1F3F4;
-  --clrSelected: #1A1A1A;
   --shadowGlobal: none;
   --shadowButton: none;
   --shadowButton-active: none;

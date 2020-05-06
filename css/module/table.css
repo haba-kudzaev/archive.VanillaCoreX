@@ -79,7 +79,7 @@ table tbody + tbody {
 
 .table-striped tbody tr:nth-of-type(odd),
 .table-hover tbody tr:hover {
-  background-color: var(--clrSelected);
+  background-color: var(--clrBg_selected);
 }
 
 @media (max-width: 575.98px) {

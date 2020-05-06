@@ -49,7 +49,7 @@
 }
 
 .view-list li:active {
-  background: var(--clrSelected);
+  background: var(--clrBg_selected);
 }
 
 .view-list li:first-child:not(.head) {

@@ -82,7 +82,7 @@
 
 .navdrawer .item:active,
 .navdrawer .item.selected {
-  background: var(--clrSelected);
+  background: var(--clrBg_selected);
 }
 
 .navdrawer .item.selected > i,

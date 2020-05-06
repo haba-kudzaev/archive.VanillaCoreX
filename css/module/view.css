@@ -11,7 +11,7 @@
   border: 0.1em solid var(--clrOutline);
   list-style: none;
   padding: 0.8em;
-  overflow-y: hidden;
+  overflow-y: scroll;
   white-space: nowrap;
   -webkit-border-radius: var(--border-radius);
      -moz-border-radius: var(--border-radius);

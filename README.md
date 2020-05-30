@@ -1,6 +1,10 @@
+> Проект закрыт!
+
+---
+
 <p align="center">
   <a href="https://o1310.github.io">
-    <img src="https://github.com/o1310/CoreX/blob/vanilla/corex_logo.png?raw=true" alt="CoreX logo" width="60%">
+    <img src="https://github.com/o1310/VanillaCoreX/blob/vanilla/corex_logo.png?raw=true" alt="CoreX logo" width="60%">
   </a>
 </p>
 
